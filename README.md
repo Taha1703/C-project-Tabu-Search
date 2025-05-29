@@ -16,3 +16,23 @@ Compile the program (e.g., using g++):
 
 ```bash
 g++ -o tabu tabu.cpp
+
+Run the executable with the following parameters:
+
+bash
+Kopieren
+Bearbeiten
+./tabu <datafile> <tabu_duration> <iterations> <print_every>
+datafile: Path to the input file containing the problem data
+
+tabu_duration: Base tabu tenure duration (integer)
+
+iterations: Maximum number of iterations to run
+
+print_every: Frequency of progress output (set to 0 for no intermediate output)
+
+Example
+bash
+Kopieren
+Bearbeiten
+./tabu data.1 3 100 10
